@@ -66,13 +66,15 @@ group by t.hour;
 
 - `etl.ipynb`: notebook that describes the ETL process. It performs the process for one of the song files and one of 
 the event files.
-- `graphs.ipynb`: notebook with some analytical queries and graphs. 
+- `graphs.ipynb`: notebook with some analytical queries and graphs.   
+
 
 ## Python files
 
 - `create_tables.py`: script to create the database schema, and execute the DDL statements. 
 - `sql_queries.py`: contains all SQL statemens of the project (DDL and DML).
 - `etl.py`: script that executes the ETL process. Migrates the JSON log files to the database schema.
+
 
 # Running the project
 
