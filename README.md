@@ -1,6 +1,6 @@
 # Sparkify DB Migration Project
 
-This project migrates the Sparkify data from JSON log files to a Postgresql schema.
+This project migrates the Sparkify data from JSON log files to a Postgresql schema.   
 
 ## Database Purpose
 
@@ -66,7 +66,7 @@ group by t.hour;
 
 - `etl.ipynb`: notebook that describes the ETL process. It performs the process for one of the song files and one of 
 the event files.
-- `graphs.ipynb`: notebook with some analytical queries and graphs.   
+- `graphs.ipynb`: notebook with some analytical queries and graphs.
 
 
 ## Python files
